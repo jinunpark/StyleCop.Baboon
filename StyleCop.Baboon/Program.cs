@@ -16,7 +16,7 @@ namespace StyleCop.Baboon
 
         public static int Main(string[] args)
         {
-            if (args.Length < 3)
+            if (args.Length < 2)
             {
                 PrintUsage();
 
@@ -26,8 +26,12 @@ namespace StyleCop.Baboon
             var settings = args[0];
             var projectPath = args[1];
             var ignoredPathsLenght = args.Length - 2;
-            var ignoredPaths = new string[ignoredPathsLenght];
-            Array.Copy(args, 2, ignoredPaths, 0, ignoredPathsLenght);
+
+			var ignoredPaths = new string[ignoredPathsLenght];
+			if (ignoredPathsLenght > 0)
+			{
+				Array.Copy(args, 2, ignoredPaths, 0, ignoredPathsLenght);
+			}
 
             return Analyze(settings, projectPath, ignoredPaths);
         }
