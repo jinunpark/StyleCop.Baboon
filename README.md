@@ -1,6 +1,6 @@
 # StyleCop.Baboon - StyleCop working anywhere
 
-StyleCop.Baboon helps you to fix [StyleCop](https://stylecop.codeplex.com/) problems without an IDE and from any OS that runs C#.
+StyleCop.Baboon helps you to fix [StyleCop](https://github.com/StyleCop/StyleCop) problems without an IDE and from any OS that runs C#.
 
 [![Build status](https://ci.appveyor.com/api/projects/status/qs2k50hblbc4b603/branch/master?svg=true)](https://ci.appveyor.com/project/nelsonsar/stylecop-baboon/branch/master) [![Build Status](https://travis-ci.org/nelsonsar/StyleCop.Baboon.svg?branch=master)](https://travis-ci.org/nelsonsar/StyleCop.Baboon)
 
@@ -8,17 +8,7 @@ StyleCop.Baboon helps you to fix [StyleCop](https://stylecop.codeplex.com/) prob
 
 1. Clone this repository
 
-2. From inside the root of the this repository, clone/download the StyleCop repository into a subfolder called `stylecop`.
-
-    * To download StyleCop go to its [web](https://stylecop.codeplex.com/SourceControl/latest) and click in *Download*. Then unzip and rename the folder to just *stylecop*.
-
-    * To clone StyleCop repository (Mercurial only):
-
-        ```sh
-        hg clone https://hg.codeplex.com/stylecop
-        ```
-
-3. Build the solution.
+2. Build the solution.
 
     * On Windows:
 
