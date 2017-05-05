@@ -1,7 +1,5 @@
 ﻿namespace StyleCop.Baboon.Analyzer
 {
-    using System;
-
     public class Violation
     {
         private readonly string id;
@@ -41,7 +39,7 @@
 
         public override string ToString()
         {
-            return string.Format(string.Format("Line {0}: [{1}] {2}", this.LineNumber, this.Id, this.Message));
+            return string.Format("Line {0}: [{1}] {2}", this.LineNumber, this.Id, this.Message);
         }
     }
 }
