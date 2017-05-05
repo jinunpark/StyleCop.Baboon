@@ -2,7 +2,7 @@
 
 StyleCop.Baboon helps you to fix [StyleCop](https://github.com/StyleCop/StyleCop) problems without an IDE and from any OS that runs C#.
 
-[![Build status](https://ci.appveyor.com/api/projects/status/qs2k50hblbc4b603/branch/master?svg=true)](https://ci.appveyor.com/project/nelsonsar/stylecop-baboon/branch/master) [![Build Status](https://travis-ci.org/nelsonsar/StyleCop.Baboon.svg?branch=master)](https://travis-ci.org/nelsonsar/StyleCop.Baboon)
+[![Build Status](https://travis-ci.org/nelsonsar/StyleCop.Baboon.svg?branch=master)](https://travis-ci.org/nelsonsar/StyleCop.Baboon)
 
 ## <a name="installation"></a>Installation / Usage
 
